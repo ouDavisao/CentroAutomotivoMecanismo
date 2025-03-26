@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulário de Contato - Centro Automotivo Mecanismo</title>
+</head>
+<body>
+    <section id="contato">
+        <h2>Entre em Contato Conosco</h2>
+        <p>Preencha as informações abaixo para entrarmos em contato com você.</p>
+
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <th>Informações Pessoais</th>
+                    <th>Detalhes do Veículo</th>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required><br><br>
+
+                        <label for="telefone">Número de Telefone:</label><br>
+                        <input type="tel" id="telefone" name="telefone" required><br><br>
+                    </td>
+                    <td>
+                        <label for="modelo">Modelo do Carro:</label><br>
+                        <input type="text" id="modelo" name="modelo" required><br><br>
+
+                        <label for="ano">Ano do Carro:</label><br>
+                        <input type="number" id="ano" name="ano" required><br><br>
+
+                        <label for="motor">Motor do Carro:</label><br>
+                        <input type="text" id="motor" name="motor" required><br><br>
+
+                        <label for="chassi">Chassi do Carro:</label><br>
+                        <input type="text" id="chassi" name="chassi" required><br><br>
+                    </td>
+                </tr>
+            </table>
+
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
